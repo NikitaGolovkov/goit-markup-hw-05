@@ -63,7 +63,7 @@
 						<br />
 						для вашего бизнеса
 					</h1>
-					<button class="btn">Заказать услугу</button>
+					<button class="btn" data-modal-open>Заказать услугу</button>
 				</div>
 			</section>
 			<!-- Преимущества -->
@@ -533,5 +533,18 @@
 				</div>
 			</div>
 		</footer>
+		<!-- Модальное окно -->
+		<section>
+			<div class="backdrop is-hidden" data-modal>
+				<div class="modal">
+					<button class="btn-close" data-modal-close>
+						<svg width="11px" height="11px">
+							<use href="./images/icons/sprite.svg#close"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</section>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
